@@ -43,5 +43,35 @@
     </ul>
 
 
+    <h2>2021.5.13 901号教室　WEBプログラマー養成科</h2>
+    <p>教科書P394～</p><br>
+
+    <ul>
+        <li><u>section10-4「クッキーを使う」</u></li>
+        <li>・cookieの保存　$result = setcookie(cookie名,値,有効期限,...);</li>
+        <li>・cookieのデータ取得 $message = $_COOKIE["message"];</li>
+        <li>・cookieの削除 $result = setcookie(cookie名,"",time()-3600);</li>
+        <li><u>section10-5「クッキーで訪問カウンタを作る」</u></li>
+        <li>・訪問回数はインクリメントで１増やす（++$visitesCount）</li>
+        <li>・クッキーに配列を保存するときは、 $result = setcookie("クッキー名[キー名]",値); とする</li>
+        <li>・date()関数で使用する日付のフォーマット--→PHPマニュアルdateのformatのリンク先ページ参照</li>
+        <li>    $lasttime = date("Y年n月j日 A g時i分",$time);　のように、第２引数の時間を第１引数のフォーマットに置換できる</li>
+        <li><u>section10-6「複数の値を１つにまとめてクッキーに保存する」</u></li>
+        <li>・implodeとexplodeを使って文字連結状態でクッキーに保存、クッキーから取り出す</li>
+        <li>・クエリ文字列に変換する関数を作成し、連想配列をクッキーに保存。（キー名１＝値１＆キー名２＝値２）</li>
+        <li>・parse_str()を使ってクエリ文字列を配列に戻して変数に代入する</li>
+        <li><u>section11-1「SplFileObjectクラスを使う」</u></li>
+        <li>・splFileObjectクラスを使ってサーバ上にファイルを作成して読み書きする</li>
+        <li><u>section11-2「フォーム入力をテキストファイルに追記する」</u></li>
+        <li>・記述まで</li>
+    </ul>
+
+    <h2>PHP練習問題集</h2>
+    <ul>
+        <li>問題15</li>
+        <li>問題16</li>
+    </ul>
+
+
 </body>
 </html>
